@@ -19,6 +19,7 @@ CREATE TABLE `Videos` (
   `student_id` varchar(255),
   `subject_id` varchar(255),
   `exam_pin` varchar(255),
+  `created_at` varchar(255),
   PRIMARY KEY (`id`, `file_name`)
 );
 
@@ -84,7 +85,7 @@ ALTER TABLE `Examination` ADD FOREIGN KEY (`teacher_id`) REFERENCES `Users` (`us
 --     )
 -- VALUES
 --     (
---         "123456",
+--         "ABC1234",
 --         "Computer Programing II",
 --         "11111111",
 --         10,
