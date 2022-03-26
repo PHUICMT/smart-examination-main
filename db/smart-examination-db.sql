@@ -29,8 +29,7 @@ CREATE TABLE `Results` (
   `exam_pin` varchar(255),
   `total_score` integer,
   `emotion` json,
-  `answer` json,
-  `events` json
+  `answer` json
 );
 
 CREATE TABLE `Examination` (
