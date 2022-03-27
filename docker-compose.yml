@@ -19,8 +19,8 @@ services:
     expose:
       - "3306"
     volumes:
-      - my-db:/var/lib/mysql
-      - ./db/smart-examination-db.sql:/docker-entrypoint-initdb.d/smart-examination-db.sql
+      - my-db:/var/lib/mysql:rw
+      - ./db:/docker-entrypoint-initdb.d
     command: >
       --wait_timeout=31536000
       --interactive_timeout=31536000
