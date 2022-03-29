@@ -36,7 +36,9 @@ CREATE TABLE `Results` (
 
 CREATE TABLE `Examination` (
   `exam_pin` varchar(255) PRIMARY KEY,
-  `exam_name` varchar(255),
+  `exam_subject` varchar(255),
+  `exam_title` varchar(255),
+  `exam_description` varchar(1000),
   `teacher_id` varchar(255),
   `items_count` integer,
   `score` float,

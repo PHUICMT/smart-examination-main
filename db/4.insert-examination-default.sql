@@ -3,7 +3,9 @@ SET NAMES `utf8`;
 INSERT INTO
     `Examination` (
         `exam_pin`,
-        `exam_name`,
+        `exam_subject`,
+        `exam_title`,
+        `exam_description`,
         `teacher_id`,
         `items_count`,
         `score`,
@@ -14,6 +16,8 @@ VALUES
     (
         "ABC1234",
         "Computer Programing II",
+        "แบบทดสอบก่อนเรียน",
+        "ชุดกิจกรรมการเรียนรู้ที่ 1 เรื่อง คอมพิวเตอร์ครอบจักรวาล",
         "11111111",
         10,
         10.0,
