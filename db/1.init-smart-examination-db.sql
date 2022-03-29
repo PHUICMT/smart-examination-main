@@ -1,5 +1,5 @@
 USE `smart_examination`;
-
+SET NAMES `utf8`;
 CREATE TABLE `Users` (
   `user_id` varchar(255) PRIMARY KEY,
   `name` varchar(255),
@@ -43,6 +43,7 @@ CREATE TABLE `Examination` (
   `exam` json,
   `created_at` varchar(255)
 );
+  
 
 ALTER TABLE `Videos` ADD FOREIGN KEY (`student_id`) REFERENCES `Users` (`user_id`);
 
@@ -55,3 +56,33 @@ ALTER TABLE `Results` ADD FOREIGN KEY (`student_id`) REFERENCES `Users` (`user_i
 ALTER TABLE `Results` ADD FOREIGN KEY (`exam_pin`) REFERENCES `Examination` (`exam_pin`);
 
 ALTER TABLE `Examination` ADD FOREIGN KEY (`teacher_id`) REFERENCES `Users` (`user_id`);
+
+
+
+[[Sad : 20%
+normal : 10%
+Angry : 70%],
+
+[Sad : 20%
+normal : 10%
+Angry : 70%],
+
+[Sad : 20%
+normal : 10%
+Angry : 70%],
+
+[Sad : 20%
+normal : 10%
+Angry : 70%]]
+
+
+ภู 
+Sad : 20%
+normal : 10%
+Angry : 70%
+
+
+กร
+Sad : 5%
+normal : 15%
+Angry : 70%

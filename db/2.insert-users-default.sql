@@ -1,5 +1,5 @@
 USE `smart_examination`;
-
+SET NAMES `utf8`;
 INSERT INTO
     `Users` (
         `user_id`,
