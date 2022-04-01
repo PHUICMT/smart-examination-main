@@ -58,3 +58,7 @@ ALTER TABLE `Results` ADD FOREIGN KEY (`student_id`) REFERENCES `Users` (`user_i
 ALTER TABLE `Results` ADD FOREIGN KEY (`exam_pin`) REFERENCES `Examination` (`exam_pin`);
 
 ALTER TABLE `Examination` ADD FOREIGN KEY (`teacher_id`) REFERENCES `Users` (`user_id`);
+
+-- INSERT INTO Results (id, student_id, exam_pin, answer, start_and_end_time, exam_items_time_stamp) VALUES ('01','07610497','ABC1234','{}','{}','{}')
+
+-- UPDATE Results SET emotion='{"sad": 100,"happy":500}' WHERE exam_pin='ABC1234'
