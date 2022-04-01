@@ -11,4 +11,6 @@ INSERT INTO
 VALUES
     ("07610497", "Undaman", "Nopnapaporn", "2561", 1),
     ("07610400", "Undaman2", "Nopnapaporn2", "2562", 1),
+    ("07610401", "Undaman3", "Nopnapaporn3", "2563", 1),
+    ("07610402", "Undaman4", "Nopnapaporn4", "2564", 1),
     ("11111111", "Teacher", "Test", "2500", 0);
