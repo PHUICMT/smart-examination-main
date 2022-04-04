@@ -19,7 +19,7 @@ CREATE TABLE `Videos` (
   `student_id` varchar(255),
   `subject_id` varchar(255),
   `exam_pin` varchar(255),
-  `created_at` varchar(255),
+  `created_at` varchar(255)
 );
 
 CREATE TABLE `Results` (
