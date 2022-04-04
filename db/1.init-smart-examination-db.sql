@@ -24,14 +24,14 @@ CREATE TABLE `Videos` (
 );
 
 CREATE TABLE `Results` (
-  `id` varchar(255) PRIMARY KEY,
   `student_id` varchar(255),
   `exam_pin` varchar(255),
   `total_score` integer,
   `emotion` json,
   `answer` json,
   `start_and_end_time` json,
-  `exam_items_time_stamp` json
+  `exam_items_time_stamp` json,
+  PRIMARY KEY (`student_id`, `exam_pin`)
 );
 
 CREATE TABLE `Examination` (
