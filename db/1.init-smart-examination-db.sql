@@ -14,13 +14,12 @@ CREATE TABLE `Subject` (
 );
 
 CREATE TABLE `Videos` (
-  `id` varchar(255),
+  `id` varchar(255) PRIMARY KEY,
   `file_name` varchar(255),
   `student_id` varchar(255),
   `subject_id` varchar(255),
   `exam_pin` varchar(255),
   `created_at` varchar(255),
-  PRIMARY KEY (`id`, `file_name`)
 );
 
 CREATE TABLE `Results` (
