@@ -39,8 +39,6 @@ CREATE TABLE `Examination` (
   `exam_title` varchar(255),
   `exam_description` varchar(1000),
   `teacher_id` varchar(255),
-  `items_count` integer,
-  `score` float,
   `exam` json,
   `created_at` varchar(255)
 );
