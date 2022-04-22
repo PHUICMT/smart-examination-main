@@ -3,4 +3,18 @@ SET NAMES `utf8`;
 INSERT INTO
     `Subject` (`subject_id`, `name`)
 VALUES
-    ("Computer", "Computer Programing II");
+    ("COM I", "Computer Programing I"),
+    ("COM II", "Computer Programing II"),
+    ("COMFOUN", "FOUNDATION OF COMPUTER AND INFORMATICS"),
+    ("OOSD", "Object Oriented Software Development"),
+    ("SE", "SOFTWARE ENGINEERING"),
+    ("ESA", "ENTERPRISE SOFTWARE ARCHITECTURE"),
+    ("NETWORK", "COMPUTER NETWORK ARCHITECTURE AND TECHNOLOGY"),
+    ("ALGO", "ALGORITHM ANALYSIS AND DESIGN"),
+    ("RM", "RESEARCH METHODS"),
+    ("HCI", "HUMAN COMPUTER INTERACTION AND INTERFACE DESIGN"),
+    ("SA", "SYSTEM ANALYSIS AND DESIGN"),
+    ("LAWS", "LAWS AND ETHICS IN INFORMATION TECHNOLOGY"),
+    ("PL", "PRINCIPLES OF PROGRAMMING LANGUAGES"),
+    ("OS", "OPERATING SYSTEMS");
+
